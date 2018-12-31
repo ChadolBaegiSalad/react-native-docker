@@ -32,6 +32,7 @@ if you're done, go to the "How to run a project" section.
 
 
 ## How to run a project
+
 #### In osx
 
  1. edit run.sh and get_bash.sh scripts attached to this repo. *PROJECT_NAME,* *PROJECT_ROOT_DIR*  is a variable, edit it to suit your environment
@@ -47,3 +48,4 @@ if you're done, go to the "How to run a project" section.
     * if the device is not connected, try various connection methods such as MTP, PTP, and USB Mass Storage or try connecting again.
 
 #### In windows (to be added)
+
