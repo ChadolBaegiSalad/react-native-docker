@@ -1,7 +1,8 @@
 # react-native-docker
+Run react-native-cli on the docker
 
-### How to set up
-####In osx
+## How to set up
+#### In osx
 
  1. install [docker](https://www.docker.com/products/docker-desktop)
  2. install [virtualbox](https://www.virtualbox.org/wiki/Downloads) (you must install both VirtualBox and VirtualBox Extension Pack)
@@ -27,10 +28,11 @@
 
 if you're done, go to the "How to run a project" section.
 
-####In windows (to be added)
+#### In windows (to be added)
 
-----------
-###How to run a project
+
+## How to run a project
+
 #### In osx
 
  1. edit run.sh and get_bash.sh scripts attached to this repo. *PROJECT_NAME,* *PROJECT_ROOT_DIR*  is a variable, edit it to suit your environment
@@ -45,4 +47,5 @@ if you're done, go to the "How to run a project" section.
     * if you check all list of connected usb port, use lsusb command
     * if the device is not connected, try various connection methods such as MTP, PTP, and USB Mass Storage or try connecting again.
 
-####In windows (to be added)
+#### In windows (to be added)
+
