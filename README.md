@@ -7,21 +7,21 @@ Run react-native-cli on the docker
  1. install [docker](https://www.docker.com/products/docker-desktop)
  2. install [virtualbox](https://www.virtualbox.org/wiki/Downloads) (you must install both VirtualBox and VirtualBox Extension Pack)
  3. set up a virtual image that can access the USB port (because the default image does not have access to the port)
-    > ***1. create and stop the virtual image ***
-    > docker-machine create --driver virtualbox default
-    > docker-machine stop
+    > ***1. create and stop the virtual image*** 
+    >> docker-machine create --driver virtualbox default
+    >> docker-machine stop
     >
     > ***2. add a usb controller to the image***
-    > ..
+    > ![2018-12-31 11 43 53](https://user-images.githubusercontent.com/24406920/50555011-0c13c600-0d09-11e9-8685-3b26c9edb1d5.png)
     >
-    > ***3. start the virtual image ***
-    > docker-machine start
+    > ***3. start the virtual image***
+    >> docker-machine start
     >
-    > ***4. active docker-machine ***
-    > eval $(docker-machine env)
+    > ***4. active docker-machine***
+    >> eval $(docker-machine env)
     >
     > ***5. validate (if the output is the "default", it is success)***
-    > docker-machine active
+    >> docker-machine active
 
  4. pull "react-native-docker" docker image
     > docker pull polaris707/react-native-docker:latest
